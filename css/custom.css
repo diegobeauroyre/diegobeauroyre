@@ -1,60 +1,36 @@
 
 
 body {
-  font-family: "Open Sans", sans-serif;
-  font-size: 14px;
+  font-family: "Courier New", sans-serif;
+  font-size: 12px;
   line-height: 1.42857143;
 }
 
 body.landing {
-  background-color: #f1f1f1;
+  background-color: #fff;
     width: 100%;
-}
-
-.section1 {
-  background-color: #f1f1f1;
-  background-image:url("../img/texturafondoANI.gif");
-    width: 100%;
-    color:#333;
-
 }
 
 .section2 {
-    background-color: #f1f1f1;
+    background-color: #fff;
     width: 100%;
     color: #333;
 
 }
 
-.section3 {
-    background-color: #999;
-    width: 100%;
-    color: #fff;
-}
-
-.section4 {
-    background-color: #666;
-    width: 100%;
-    font-size: 14px;
-    color:#f1f1f1;
-}
-
-.section5 {
-    background-color: #333;
-    width: 100%;
-    font-size: 14px;
-    color:#f1f1f1;
-}
-
 .footer {
-   background-color: #000;
+   background-color: #fff;
     width: 100%;
-    text-align:center;
+    text-align:left;
+    padding-right: 15px;
+padding-left: 15px;
+margin-right: auto;
+margin-left: auto;
 
 }
 
 body.page {
-  background-color: #f1f1f1;
+  background-color: #fff;
 }
 
 h1 {
@@ -99,7 +75,7 @@ text-align:left;
 }
 
 a:link, a:visited, a:hover, a:active {
-  color: #00e0b0;
+  color: #000000;
   text-decoration: none;
 }
 
@@ -195,7 +171,7 @@ a:link, a:visited, a:hover, a:active {
 
 .navbar-inverse {
     margin: 0;
-    background-color: #333;
+    background-color: #ffffff;
 }
 
 .navbar-fixed-top {
@@ -203,8 +179,8 @@ a:link, a:visited, a:hover, a:active {
   border-width: 0 0 1px;
 }
 .navbar-inverse {
-  background-color: #333;
-  border-color: #333;
+  background-color: #ffffff;
+  border-color: #ffffff;
 }
 
 .navbar-brand {
@@ -225,7 +201,7 @@ margin-left:40px;
 }
 .navbar-inverse .navbar-brand:hover,
 .navbar-inverse .navbar-brand:focus {
-  color: #00e0b0;
+  color: #000000;
   background-color: transparent;
 }
 
@@ -242,7 +218,7 @@ margin-left:40px;
   max-width: 600px;
   padding: 0px;
   margin: 98px auto;
-  font-size: 18px;
+  font-size: 12px;
   text-align:center;
 }
 
@@ -256,23 +232,14 @@ width:100%;
   max-width: 720px;
   padding: 30px;
   margin: 50px auto;
-  font-size: 18px;
-      font-size: 18px;
-
+  font-size: 12px;
 }
 
 .content {
   padding: 20px
 }
 
-.circle {
-	border-radius: 50%;
-	width: 150px;
-	height: 150px; 
-    background-color: #00e0b0;
-      margin: auto;
-    margin-top: 40px;
-}
+
 
 .table tbody>tr>td.vert-align
 {
