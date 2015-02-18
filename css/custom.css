@@ -214,20 +214,6 @@ margin-left:40px;
 /*** Layout ***/
 
 
-.content-tagline {
-  max-width: 600px;
-  padding: 0px;
-  margin: 98px auto;
-  font-size: 12px;
-  text-align:center;
-}
-
-.content-call {
-width:100%;
-  margin-top: 30px;
-  text-align:center;
-}
-
 .content-wrapper {
   max-width: 720px;
   padding: 30px;
@@ -237,6 +223,16 @@ width:100%;
 
 .content {
   padding: 20px
+}
+
+.wrapper {
+  padding: 20px
+}
+
+.footer {
+  padding-top: 60px;
+  padding-bottom: 60px;
+
 }
 
 
