@@ -5,15 +5,24 @@ back_label:   "Acerca de"
 ---
  
 
+{% assign all_stories = site.posts | where:'section', 'historias' | where: 'published', true %}
 
 
 <div class="container section2">
 
-<div class="content-wrapper">
-      <div class="content">
-    <!--  {% include menu.html %}  -->
+ <img src="{{ site.root_url }}/assets/images/soon-dhb-02.gif" alt="#soon" style="width: 100%">
+
+<ul class="posts-list">
+    {% for post in all_stories | limit: 6 %}
+      <li>
+        {% include story-post.html post=post %}
+      </li>
+    {% endfor %}
+  </ul>
     </div>
-   </div>
+
+
+
 </div>
 
 
