@@ -1,7 +1,7 @@
-Dataton
+d—h—b
 =======
 
-Página de convocatoria "Dataton".
+Grafista | Mexico
 
 Dependencias:
 * Jekyll: Generador de páginas estáticas
