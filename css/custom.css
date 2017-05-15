@@ -54,8 +54,8 @@ font-size:24px;
 }
 
 h4 {
-  font-size: 24px;
-    color: #00e0b0;
+  font-size: 14px;
+    color: #00000;
     margin-top: 2em;
 }
 
@@ -71,7 +71,7 @@ margin-bottom: 5px;
 font-weight: 700;
 font-size:14px;
 text-align:left;
-    
+
 }
 
 a:link, a:visited, a:hover, a:active {
@@ -194,7 +194,7 @@ a:link, a:visited, a:hover, a:active {
 .navbar-right {
 margin-left:40px;
 }
-    
+
 
 .navbar-inverse .navbar-brand {
   color: #FFF;
@@ -236,7 +236,7 @@ margin-left:40px;
 }
 
 .img-responsive {
-    
+
     margin-top: 20px;
 }
 
@@ -290,7 +290,7 @@ body.landing .content {
     align-content:left;
 padding-left:20px;
     padding-right:20px;
-    padding-bottom:20px;        
+    padding-bottom:20px;
 }
 
 .form-group {
@@ -308,7 +308,7 @@ text-align:left;
 }
 
 .botonforma {
-   padding-top:20px; 
+   padding-top:20px;
     text-align:center;
 }
 
@@ -316,7 +316,7 @@ text-align:left;
 
 .botonlink {
     height: 80px;
-    width: 100%; 
+    width: 100%;
     max-width: 300px;
     background-color:#00e0b0;
     text-align:center;
