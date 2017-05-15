@@ -1,6 +1,4 @@
 name: dhb
-markdown: redcarpet
 pygments: true
 
 root_url: http://dhb.mx
-
