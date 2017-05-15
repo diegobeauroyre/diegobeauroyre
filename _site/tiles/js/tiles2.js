@@ -5,9 +5,19 @@ var semilla;
 var estilo = 0;
 
 function setup(){
-    createCanvas(1260,1260); // size - create canvas
+    createCanvas(windowWidth,windowHeight); // size - create canvas
     background(0);
     semilla = int(random(1000));
+    numS = 20;
+    ancho = hight/numS;
+    alto = height/numS;
+    estilo = 0;
+}
+
+function windowResized() {
+    resizeCanvas(windowWidth, windowHeight);
+    ancho = width/numS;
+    alto = height/numS;
 }
 
 function draw(){
