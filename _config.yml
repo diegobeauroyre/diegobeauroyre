@@ -1,4 +1,3 @@
 name: dhb
-pygments: true
-
+rouge: true
 root_url: http://dhb.mx
